@@ -1,5 +1,5 @@
+#### Assignment: Bank System
 
-Assignment: Bank System
 Design a system for a bank to lend money to borrowers and receive payment for the loans.
 
 The system should have the following functions:
@@ -24,35 +24,54 @@ Feel free to take any assumption
 
 Note:
 
-Use restful APIs to expose the functions.
-You can use any programming language and framework of your choice.
-To persist data use any database / file based system.
-Keep things simple. The system should not be at the production level. But you should be able to explain your design decision.
-How to Use This Project
-1. Clone the Repository
+- Use restful APIs to expose the functions.
+- You can use any programming language and framework of your choice.
+- To persist data use any database / file based system.
+- Keep things simple. The system should not be at the production level. But you should be able to explain your design decision.
+
+---
+
+## How to Use This Project
+
+### 1. Clone the Repository
+
+```sh
 git clone https://github.com/your-username/bank_system.git
 cd bank_system
-2. Install Dependencies
-Install the required dependencies using your preferred package manager.
-For example, if using Python and requirements.txt:
+```
 
+### 2. Install Dependencies
+
+Install the required dependencies using your preferred package manager.  
+For example, if using Python and `requirements.txt`:
+
+```sh
 pip install -r requirements.txt
-3. Run the Application
+```
+
+### 3. Run the Application
+
 Start the server (update the command as per your framework, e.g., Flask, FastAPI, Node.js):
 
+```sh
 python app.py
-or
-
+```
+or  
+```sh
 uvicorn main:app --reload
-4. API Endpoints
-LEND: Create a new loan for a customer.
-PAYMENT: Make EMI or lump sum payments for a loan.
-LEDGER: View all transactions and loan details for a loan.
-ACCOUNT OVERVIEW: List all loans and their status for a customer.
-Use tools like Postman or curl to interact with the RESTful APIs.
+```
 
-5. Data Persistence
-The system uses a simple database or file-based storage (see project files for details).
+### 4. API Endpoints
+
+- **LEND**: Create a new loan for a customer.
+- **PAYMENT**: Make EMI or lump sum payments for a loan.
+- **LEDGER**: View all transactions and loan details for a loan.
+- **ACCOUNT OVERVIEW**: List all loans and their status for a customer.
+
+Use tools like [Postman](https://www.postman.com/) or `curl` to interact with the RESTful APIs.
+
+### 5. Data Persistence
+
+The system uses a simple database or file-based storage (see project files for details).  
 No setup required for basic usage.
-
 
